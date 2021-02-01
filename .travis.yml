@@ -7,8 +7,8 @@ node_js:
 git:
   depth: 3
 script:
-  - npm test
-  - npm build
+  - npm run test
+  - npm run build
 deploy:
   provider: pages
   edge: true
